@@ -11,6 +11,7 @@ img{
     display: block;
     max-width: 100%;
     height: auto;
+    margin-right:0.5rem ;
 }
 
 body{
@@ -30,7 +31,7 @@ main{
 
 .main-container{
     display: flex;
-    flex-grow: 1;
+    
     max-width: 650px;
 background-color: white;
 border-radius: 25px;
@@ -42,7 +43,6 @@ flex-wrap: wrap;
     max-width: min(100%,50%);
     height: auto;
     border-radius: 25px;
-    flex: 1;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -112,7 +112,6 @@ h2{
     padding-top: 0.3rem;
     display: flex;
    border-radius: 25px;
-    flex: 1;
     flex-direction: column;
     background-color: white;
 }
@@ -142,6 +141,24 @@ ul{
   gap: 0.5rem;
 }
 
+
+.red{
+    display: flex;
+    color:hsla(0, 100%, 67%, 0.87) ;
+   }
+   .orange{
+    display: flex;
+    color:hsla(39, 100%, 56%, 0.87) ;
+   }
+   .green{
+    display: flex;
+    color:hsla(166, 100%, 37%, 0.87) ;
+   }
+   .blue{
+    display: flex;
+    color:hsla(234, 85%, 45%, 0.87) ;
+   }
+
 .reaction{
     background-color: hsla(0, 100%, 67%, 0.09);
 }
@@ -155,6 +172,15 @@ ul{
     background-color: hsl(234, 85%, 45%,0.09);
     margin-bottom: 2rem;
 }
+
+.light{
+    color: hsla(224, 30%, 27%, 0.418);
+}
+.dark{
+    color:hsl(224, 30%, 27%);
+    padding-right: 0.5rem;
+}
+
 
 button{
     display: block;
@@ -173,33 +199,6 @@ button{
     button:hover, button:active{
      background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     }
-
-   .red{
-    display: flex;
-    color:hsla(0, 100%, 67%, 0.87) ;
-   }
-   .orange{
-    display: flex;
-    color:hsla(39, 100%, 56%, 0.87) ;
-   }
-   .green{
-    display: flex;
-    color:hsla(166, 100%, 37%, 0.87) ;
-   }
-   .blue{
-    display: flex;
-    color:hsla(234, 85%, 45%, 0.87) ;
-   }
-   img{
-    margin-right:0.5rem ;
-   }
-.light{
-    color: hsla(224, 30%, 27%, 0.418);
-}
-.dark{
-    color:hsl(224, 30%, 27%);
-    padding-right:0.5rem;
-}
 
   @media screen and (max-width:598px) {
     .main-container{
