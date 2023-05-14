@@ -201,7 +201,7 @@ button{
     padding-right:0.5rem;
 }
 
-  @media screen and (max-width:658px) {
+  @media screen and (max-width:598px) {
     .main-container{
         display:flex ;
        flex-direction: column;
