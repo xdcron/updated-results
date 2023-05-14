@@ -198,6 +198,7 @@ button{
 }
 .dark{
     color:hsl(224, 30%, 27%);
+    padding-right:0.5rem;
 }
 
   @media screen and (max-width:658px) {
