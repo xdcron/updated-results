@@ -100,8 +100,10 @@ p{
 h2{
     margin-top: 1.7rem;
     margin-bottom: 0.8rem;
-    color:hsl(224, 30%, 27%);
+    color: hsl(224, 30%, 27%);
 }
+
+
 .second-box{
     max-width: min(100%,50%);
     
@@ -196,21 +198,4 @@ button{
 }
 .dark{
     color:hsl(224, 30%, 27%);
-}
-
-   @media screen and  (min-width:688px) {
-   body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   
-    .main-container{
-    font-size: 1rem;
-       display:flex ;
-       align-items: center;
-       flex-wrap: wrap;
-       
-    }
-    
 }
